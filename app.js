@@ -1,15 +1,15 @@
-var string="riteshKumar";
-    var array = string.split("");
-    var timer;
-    function frameloop(){
-        if(array.length>0){
-            document.getElementById("head").innerHTML +=array.shift();
-        }else{
-            clearTimeout(timer);
-        }
-        loopTimer = setTimeout('frameloop()',100);
-    }
-    frameloop();
+// var string="riteshKumar";
+//     var array = string.split("");
+//     var timer;
+//     function frameloop(){
+//         if(array.length>0){
+//             document.getElementById("head").innerHTML +=array.shift();
+//         }else{
+//             clearTimeout(timer);
+//         }
+//         loopTimer = setTimeout('frameloop()',100);
+//     }
+//     frameloop();
 (function($) { "use strict";
 		
 	//About page
